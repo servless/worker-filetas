@@ -20,6 +20,14 @@
 
 ## 部署教程
 
+### 通过 GitHub Actions 发布至 CloudFlare
+
+从 CloudFlare 获取 `CLOUDFLARE_API_TOKEN` 值，并设置到项目。
+
+> `https://github.com/<ORG>/<REPO>/settings/secrets/actions`
+
+### 本地部署到 CloudFlare
+
 1. 注册 [CloudFlare 账号](https://www.cloudflare.com/)，并且设置 **Workers** 域名 (比如：`***.workers.dev`)
 2. 安装 [Wrangler 命令行工具](https://developers.cloudflare.com/workers/wrangler/)。
    ```bash
